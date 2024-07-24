@@ -97,8 +97,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <excludes>  
-                         <exclude>java/util/UUID</exclude>                                                                  
+                    <excludes>
+                        <exclude>java/util/**</exclude>                                                                 
                         <exclude>com/sun/*</exclude>                                                                     
                     </excludes>
                 </configuration>
