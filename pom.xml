@@ -96,6 +96,13 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <excludes>  
+                         <exclude>java/util/UUID</exclude>                                                                  
+                        <exclude>com/sun/*</exclude>                                                                     
+                    </excludes>
+                </configuration>
+
             </plugin>
 
             <plugin>
